@@ -2,7 +2,7 @@
 
 function onLoadFunction(){
 
-    gapi.client.setApiKey('AIzaSyBbIp083bBlEJm8f27-KfUC7bR1RMofHtA');
+    gapi.client.setApiKey('ttgH1ihkfhr615BoYbiQolb2');
     gapi.client.load('plus','v1', function() {});
 }
 
