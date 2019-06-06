@@ -1,8 +1,8 @@
 var myApp = angular.module("myApp", []);
 myApp.controller('myController',['$scope', function($scope){
     $scope.gmail = {
-        username: "",
-        email:""
+        username: "Google account",
+        email:"Not logged in"
     };
 
     $scope.googleLogin = function(){
@@ -36,8 +36,8 @@ myApp.controller('myController',['$scope', function($scope){
         };
 
     $scope.facebook = {
-        username: "",
-        email:""
+        username: "Facebook account",
+        email:"Not logged in"
     };
 
     $scope.fbLogin = function(){
