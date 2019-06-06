@@ -72,7 +72,6 @@
           'resourceName': 'people/me',
           'requestMask.includeField': 'person.names'
         }).then(function(resp) {
-            alert("you are now logged in!");
           var p = document.createElement('p');
           var name = resp.result.names[0].givenName;
           p.appendChild(document.createTextNode('Hello, '+name+'!'));
