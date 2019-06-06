@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Google/Facebook Login</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="app.js" type="text/javascript"></script>
+    <script src="controller.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body ng-app="myApp" ng-controller="myController">
+<button id="google" ng-click="googleLogin()">
+    <img id="googleimg" src="google.png"></button>
+<h4> {{gmail.username}} </h4>
+<h4> {{gmail.email}} </h4>
+<img ng-src="{{g_image}}" style="width: 100px; height: 100px">
+
+<button id="fb" ng-click="fbLogin()">
+    <img src="fb.png" id="fbimg"></button>
+<h4> {{facebook.username}} </h4>
+<h4> {{facebook.email}} </h4>
+<img ng-src="{{fb_image}}" style="width: 100px; height: 100px">
+</body>
+</html>
